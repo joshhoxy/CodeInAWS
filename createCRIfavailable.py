@@ -46,7 +46,7 @@ def create_capacity(type, az, num):
         EbsOptimized=True,
         EndDateType='unlimited',
         InstanceMatchCriteria='open',
-        DryRun=True
+        DryRun=True #실제적용시 False
     )
 
 # 생성 성공시 SNS 보내기
